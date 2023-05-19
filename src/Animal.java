@@ -30,6 +30,11 @@ public class Animal {
 		this.sonidoEmite = sonidoEmite;
 		this.propietario = propietario;
 	}
+	public Animal(String idAnimal, int altura) { // HE AÑADIDO OTRO CONSTRUCTOR A LA CLASE ANIMAL
+		super();
+		this.idAnimal = idAnimal;
+		this.altura = altura;
+	}
 	public String getIdAnimal() {
 		return idAnimal;
 	}
